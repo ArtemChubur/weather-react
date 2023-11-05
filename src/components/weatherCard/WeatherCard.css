@@ -1,0 +1,63 @@
+.WeatherCard{
+    width: 660px;
+    min-height: 300px;
+    background: linear-gradient(135deg, #AD36CB 60%, #333333 30%);
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.geo_info{
+    display: flex;
+}
+
+.geo_info img{
+    height: 40px;
+    margin-top: 1%;
+}
+
+.location{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 18px;
+}
+
+.temp{
+    display: flex;
+    margin-left: 50%;
+    margin-top: 1%;
+}
+
+.temp p {
+    /* margin-top: 5%; */
+    font-size: 48px;
+}
+
+.wInfo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+}
+
+.date{
+    margin: 3% 3%;
+}
+
+
+@media (max-width: 900px) {
+    .WeatherCard{
+        width: 90%;
+        height: 80%;
+        margin-left: 5%;
+    }
+
+    .wInfo{
+        margin: 120px 0 0 0;
+    }
+}
+
+@media (max-width: 900) {
+    .WeatherCard{
+        width: 10%;
+    }
+}
